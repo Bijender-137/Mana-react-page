@@ -72,7 +72,7 @@ const FeaturedHomes = () => {
             </Col>
           </Row>
         </Container>
-        <Row className="py-5 d-none d-lg-flex">
+        <Row className="py-5 d-none d-lg-flex align-items-center">
           <Col sm={6}>
             <div className="">
               <img
@@ -82,8 +82,8 @@ const FeaturedHomes = () => {
               />
             </div>
           </Col>
-          <Col sm={6} className="m-auto">
-            <div>
+          <Col sm={6} >
+            <div className="ms-5">
               <h2 className="fs_18 ff_open_sans fw-normal clr_green">
                 CORONA DEL MAR, CA
               </h2>

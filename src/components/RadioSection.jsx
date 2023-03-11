@@ -6,7 +6,7 @@ const RadioSection = () => {
     <>
       <section className="position-relative">
         <img
-          className="position-absolute flower_3"
+          className="position-absolute flower_3 d-none d-lg-block"
           src={flowerImg3}
           alt="flowerImg3"
         />

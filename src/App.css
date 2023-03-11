@@ -193,8 +193,9 @@ td {
 }
 
 .vidio_set {
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .table_width {
@@ -341,7 +342,7 @@ td {
   }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1500px) {
   .hero_bg_img {
     background-image: url("./assets/img/png/hero_bg_img.png");
     background-size: 100% 100%;

@@ -17,22 +17,22 @@ const AsFeatureDin = () => {
             </h2>
           </div>
           <Row className="py-4 py-lg-5 justify-content-center ">
-            <Col xm={12} sm={6} md={4} lg={3} xl={2} className="text-center ">
+            <Col xs={6} sm={4} md={3} lg={2} xl={2} className="text-center ">
               <img className="w-100" src={InmanImg} alt="InmanImg" />
             </Col>
-            <Col xm={12} sm={6} md={4} lg={3} xl={2} className="text-center mt-3 mt-sm-0">
+            <Col xs={6} sm={4} md={3} lg={2} xl={2} className="text-center mt-sm-0">
               <img className="w-100" src={RealDeal} alt="InmanImg" />
             </Col>
-            <Col xm={12} sm={6} md={4} lg={3} xl={2} className="text-center mt-3 mt-md-0">
+            <Col xs={6} sm={4} md={3} lg={2} xl={2} className="text-center mt-3 mt-sm-0">
               <img className="w-100" src={CnbcImg} alt="InmanImg" />
             </Col>
-            <Col xm={12} sm={6} md={4} lg={3} xl={2} className="text-center mt-3 mt-lg-0">
+            <Col xs={6} sm={4} md={3} lg={2} xl={2} className="text-center mt-3 mt-md-0">
               <img className="w-100" src={GroupingImg} alt="InmanImg" />
             </Col>
-            <Col xm={12} sm={6} md={4} lg={3} xl={2} className="text-center mt-3 mt-xl-0">
+            <Col xs={6} sm={4} md={3} lg={2} xl={2} className="text-center mt-3 mt-lg-0">
               <img className="w-100" src={FortuneImg} alt="InmanImg" />
             </Col>
-            <Col xm={12} sm={6} md={4} lg={3} xl={2} className="text-center mt-3 mt-xl-0">
+            <Col xs={6} sm={4} md={3} lg={2} xl={2} className="text-center mt-3 mt-lg-0">
               <img className="w-100" src={GeekwireImg} alt="InmanImg" />
             </Col>
           </Row>

@@ -12,7 +12,7 @@ const Ownthejoy = () => {
           <Row className="align-items-center py-5">
             <Col lg={7}>
               <div className="position-relative">
-                <img className="w-100" src={homeImg} alt="" />
+                <img className="w-100" src={homeImg} alt="homeImg" />
                 <img
                   className="position-absolute vidio_set"
                   src={vidioImg2}

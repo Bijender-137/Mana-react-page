@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <>
       <section className="py-5">
-        <Container className="py-sm-5">
+        <Container>
           <div className=" py-md-5 d-flex flex-column align-items-center">
             <h1 className="ff_times fw-bold  fs_58 text-white pt-5 text-center">
               The modern way to buy and own a second home
@@ -25,9 +25,9 @@ const HeroSection = () => {
               <img src={vidioPlayer} alt="vidioPlayer" />
             </a>
           </div>
-          <div className="pt-5 d-flex justify-content-center align-items-center">
+          <div className="pt-5 d-flex justify-content-center align-items-center pb-lg-5 pb-xl-0">
             <a href="#down_key">
-              <img src={downArrow} alt="downArrow" />
+              <img className="w-100" src={downArrow} alt="downArrow" />
             </a>
           </div>
         </Container>
