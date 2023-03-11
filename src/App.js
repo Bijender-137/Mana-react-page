@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import "./App.css";
+import AsFeatureDin from "./components/AsFeatureDin";
+import FeaturedHomes from "./components/FeaturedHomes";
+import MainSection from "./components/MainSection";
+import MyHeader from "./components/MyHeader";
+import MyNav from "./components/MyNav";
+import OwnerRepresent from "./components/OwnerRepresent";
+import Ownthejoy from "./components/Ownthejoy";
+import RadioSection from "./components/RadioSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyHeader />
+      <MainSection />
+      <FeaturedHomes />
+      <Ownthejoy />
+      <OwnerRepresent />
+      <RadioSection />
+      <AsFeatureDin />
+     <Footer/>
+    </>
   );
 }
 
