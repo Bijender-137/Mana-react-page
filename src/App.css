@@ -311,14 +311,14 @@ td {
 @media (max-width:576px) {
   :root {
     --fs--12: 12px;
-    --fs--14: 14px;
-    --fs--16: 16px;
-    --fs--18: 18px;
-    --fs--20: 20px;
-    --fs--30: 30px;
-    --fs--35: 35px;
-    --fs--49: 49px;
-    --fs--58: 45px;
+    --fs--14: 13px;
+    --fs--16: 15px;
+    --fs--18: 16px;
+    --fs--20: 17px;
+    --fs--30: 26px;
+    --fs--35: 30px;
+    --fs--49: 38px;
+    --fs--58: 40px;
   }
 
   .overflow_scroll {

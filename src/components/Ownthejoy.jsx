@@ -54,14 +54,14 @@ const Ownthejoy = () => {
                   book stays throughout the year, not annually. And resale? It's
                   fast and streamlined, and you set the price.
                 </p>
-                <div className="d-flex flex-column mt-4">
+                <div className="d-flex flex-column mt-4 under_score">
                   <a
                     href="#"
                     className="ff_open_sans fw-semibold  fs_18 clr_green"
                   >
                     GET STARTED
                   </a>
-                  <span className="green_line"></span>
+                  <div className="line_none"><span className="green_line "></span></div>
                 </div>
               </div>
             </Col>
